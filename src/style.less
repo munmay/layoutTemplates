@@ -24,6 +24,20 @@ h2{
 	color: @text-color; 
 }
 
+h2{
+	font-family: 'Georgia', serif;
+	font-size: @h2;
+	line-height: @lineHeight-titles;
+	color: @text-color; 
+}
+
+h3{
+	font-family: 'Helvetica-Neue', sans-serif;
+	font-size: @h3;
+	line-height: @lineHeight-titles;
+	color: @text-color; 
+}
+
 p{
 	font-family: 'Helvetica Neue', sans-serif;
 	font-size: @content;
@@ -31,11 +45,13 @@ p{
 	color: @text-color; 
 }
 
-//LAYOUT 1 ----------------------------------------------------------------------------------
+.layout{
+	.mw-ui-one-whole;
+}
 
-section.layout-1{ 
-	margin-bottom: 30em; //WHY SUCH A HUGE NUMBER TO WORK?
-	}
+
+
+//LAYOUT 1 ----------------------------------------------------------------------------------
 
 p.layout-1-copy{
 	.mw-ui-one-half;
@@ -52,4 +68,36 @@ div.layout-1-img{
 	.mw-ui-one-whole(@lap);
 }
 
+//LAYOUT 2 ----------------------------------------------------------------------------------
 
+h3.layout-2-subtitle{
+	.mw-ui-one-fifth;
+	margin-top: 0;
+	.mw-ui-one-whole(@palm);
+}
+
+div.layout-2-img{
+	background-color: #f9f9f9;
+	height: 25em;
+	.mw-ui-four-fifths;
+	.mw-ui-one-whole(@palm);
+}
+
+//LAYOUT 3 ----------------------------------------------------------------------------------
+
+h3.layout-3-subtitle1, h3.layout-3-subtitle2{
+	.mw-ui-one-half;
+	margin-top: 0;
+	.mw-ui-one-whole(@palm);
+}
+
+.layout-3-copy1, .layout-3-copy2 {
+	.mw-ui-one-half;
+	.mw-ui-one-whole(@palm);
+}
+
+div.layout-3-img{
+	background-color: #f9f9f9;
+	height: 25em;
+	.mw-ui-one-whole;
+}
