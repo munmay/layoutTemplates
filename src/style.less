@@ -1,10 +1,12 @@
 @import "variables.less";
+@import "grid.less";
+
 @media screen and (max-width: 999px) {
 }
 
 body{
 	font-family: 'Helvetica-Neue', sans-serif;
-	margin: 4% 6.38% 4% 6.38%;
+	margin: 3em;
 }
 
 h1{
@@ -29,33 +31,25 @@ p{
 	color: @text-color; 
 }
 
-
 //LAYOUT 1 ----------------------------------------------------------------------------------
 
 section.layout-1{ 
-	margin: 0 0 6.38% 0;
-	overflow: auto;
-}
-
-// 2.127% — WIDTH OF 1/3 OF A COLUMN WITHIN 12-COLUMN LAYOUT
-// 6.38% - WIDTH OF ONE COLUMN WITHIN 12-COLUMN
+	margin-bottom: 30em; //WHY SUCH A HUGE NUMBER TO WORK?
+	}
 
 p.layout-1-copy{
+	.mw-ui-one-half;
+	.mw-ui-one-whole(@palm);
+	.mw-ui-one-whole(@lap);
 	margin-top: 0;
 }
 
 div.layout-1-img{
 	background-color: #f9f9f9;
-	height: 30em;
-	overflow: auto;
+	height: 25em;
+	.mw-ui-one-half;
+	.mw-ui-one-whole(@palm);
+	.mw-ui-one-whole(@lap);
 }
 
-.col-2 {
-  -webkit-columns: 2 300px;
-     -moz-columns: 2 300px;
-          columns: 2 300px;
-   -moz-column-gap: 6.38%;
-   -webkit-column-gap: 6.38%;
-   column-gap: 6.38%;
 
-}
