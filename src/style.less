@@ -36,7 +36,7 @@ h2{
 	line-height: @lineHeight-titles;
 	color: @text-color; 
 	padding-bottom: .2em;
-	border-bottom: 1px solid #ddd; 
+	border-bottom: 1px solid @lineColor; 
 }
 
 h2{
@@ -83,7 +83,7 @@ p.layout-1-copy{
 }
 
 div.layout-1-img{
-	background-color: #f9f9f9;
+	background-color: @placeholderImage;
 	height: 25em;
 	.mw-ui-one-half;
 	.mw-ui-one-whole(@palm);
@@ -99,7 +99,7 @@ h3.layout-2-subtitle{
 }
 
 div.layout-2-img{
-	background-color: #f9f9f9;
+	background-color: @placeholderImage;
 	height: 25em;
 	.mw-ui-four-fifths;
 	.mw-ui-one-whole(@palm);
@@ -107,22 +107,21 @@ div.layout-2-img{
 
 //LAYOUT 3 ----------------------------------------------------------------------------------
 
-h3.layout-3-subtitle1, h3.layout-3-subtitle2{
+h3.layout-3-subtitle1, h3.layout-3-subtitle2, .layout-3-copy1, .layout-3-copy2{
 	margin-top: 0;	
 	.mw-ui-one-half;
 	.mw-ui-one-whole(@palm);
 }
 
-.layout-3-copy1, .layout-3-copy2 {
-	margin-top: 0;
-	.mw-ui-one-half;
-	.mw-ui-one-whole(@palm);
-}
-
 div.layout-3-img, div.layout-4-img{
-	background-color: #f9f9f9;
+	background-color: @placeholderImage;
 	height: 25em;
 	.mw-ui-one-whole;
+}
+
+.layout-3-copy3, .layout-3-copy4, .layout-3-copy5, h3.layout-3-subtitle3, h3.layout-3-subtitle4, h3.layout-3-subtitle5{
+	margin-top: 0;
+	.mw-ui-one-third;
 }
 
 
