@@ -1,27 +1,38 @@
 @import "variables.less";
 @import "grid.less";
 
-@media screen and (max-width: 999px) {
+
+@media screen and (max-width: 1023px) {
+	html > body{
+		margin: 1em;
+	}
 }
 
 body{
 	font-family: 'Helvetica-Neue', sans-serif;
 	margin: 3em;
+	-webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 h1{
 	font-family: 'Georgia', serif;
 	font-size: @h1;
+	font-weight: bold;
 	line-height: @lineHeight-titles;
 	color: @text-color; 
-	display: -webkit
+	margin-bottom: 0;
 }
 
 h2{
 	font-family: 'Georgia', serif;
+	font-weight: normal;
 	font-size: @h2;
 	line-height: @lineHeight-titles;
 	color: @text-color; 
+	padding-bottom: .2em;
+	border-bottom: 1px solid #ddd; 
 }
 
 h2{
@@ -49,7 +60,13 @@ p{
 	.mw-ui-one-whole;
 }
 
+#clear{
+	clear: both;
+}
 
+#bottomspace{
+	margin-bottom: .5em;
+}
 
 //LAYOUT 1 ----------------------------------------------------------------------------------
 
@@ -97,8 +114,15 @@ h3.layout-3-subtitle1, h3.layout-3-subtitle2{
 	.mw-ui-one-whole(@palm);
 }
 
-div.layout-3-img{
+div.layout-3-img, div.layout-4-img{
 	background-color: #f9f9f9;
 	height: 25em;
+	.mw-ui-one-whole;
+}
+
+
+//LAYOUT 4 ----------------------------------------------------------------------------------
+
+.layout-4{
 	.mw-ui-one-whole;
 }
