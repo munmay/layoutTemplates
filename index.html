@@ -5,9 +5,15 @@
 	<meta charset="UTF-8">
 	<title>Layouts for Blueprint</title>
 
-	<link rel="stylesheet/less" type="text/css" href="src/style.less"/>
-	<link rel="stylesheet/less" type="text/css" href="src/variables.less"  />
-	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.4.0/less.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+	<link rel="stylesheet" href="src/bootstrap.min.css">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/variables.less">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="src/bootstrap.min.js"></script>
+
 
 </head>
 <body>
@@ -18,17 +24,17 @@
 
 
 	<!-- LAYOUT 1 ---------------------------->
-	<section class="layout">
+	<section class="layout container-fluid row">
 		<h2 class="layout-1-title">
 			Layout 1
 		</h2>
 
 		<section class="layout-1">
-			<p class="layout-1-copy">
+			<p class="layout-1-copy col-md-6 row">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut quasi distinctio sequi reiciendis vero non quos adipisci sunt, error doloremque molestiae, illum debitis, ea reprehenderit fuga quo laborum expedita explicabo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident delectus voluptates accusantium nam, perferendis ipsum ullam ad. Dolore eaque possimus at distinctio recusandae quod debitis, eos expedita aliquid autem quidem.
 			</p>
 
-			<div class="layout-1-img"></div>
+			<div class="layout-1-img col-md-6"></div>
 		</section>
 
 <!-- 

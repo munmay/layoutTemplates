@@ -61,7 +61,6 @@ p{
 }
 
 .layout{
-	.mw-ui-one-whole;
 	margin-bottom: 4em;
 }
 
@@ -76,62 +75,44 @@ p{
 //LAYOUT 1 ----------------------------------------------------------------------------------
 
 p.layout-1-copy{
-	.mw-ui-one-half;
-	.mw-ui-one-whole(@palm);
-	.mw-ui-one-whole(@lap);
 	margin-top: 0;
 }
 
 div.layout-1-img{
 	background-color: @placeholderImage;
 	height: 25em;
-	.mw-ui-one-half;
-	.mw-ui-one-whole(@palm);
-	.mw-ui-one-whole(@lap);
 }
 
 //LAYOUT 2 ----------------------------------------------------------------------------------
 
 h3.layout-2-subtitle{
-	.mw-ui-one-fifth;
 	margin-top: 0;
-	.mw-ui-one-whole(@palm);
 }
 
 div.layout-2-img{
 	background-color: @placeholderImage;
 	height: 25em;
-	.mw-ui-four-fifths;
-	.mw-ui-one-whole(@palm);
 }
 
 //LAYOUT 3 ----------------------------------------------------------------------------------
 
 h3.layout-3-subtitle1, h3.layout-3-subtitle2, .layout-3-copy1, .layout-3-copy2{
 	margin-top: 0;	
-	.mw-ui-one-half;
-	.mw-ui-one-whole(@lap);
-	.mw-ui-one-whole(@palm);
 }
 
 div.layout-3-img, div.layout-4-img{
 	background-color: @placeholderImage;
 	height: 25em;
-	.mw-ui-one-whole;
 }
 
 .layout-3-copy3, .layout-3-copy4, .layout-3-copy5, h3.layout-3-subtitle3, h3.layout-3-subtitle4, h3.layout-3-subtitle5{
 	margin-top: 0;
-	.mw-ui-one-third;
-	.mw-ui-one-whole(@palm);
-	.mw-ui-one-whole(@lap);
 }
 
 
 //LAYOUT 4 ----------------------------------------------------------------------------------
 
 .layout-4{
-	.mw-ui-one-whole;
 }
 
 h3.layout-4-subtitle{
