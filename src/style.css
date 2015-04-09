@@ -60,6 +60,10 @@ p{
 	margin-bottom: 4em;
 }
 
+.nomargin{
+	margin-top: 0;
+}
+
 #clear{
 	clear: both;
 }
@@ -68,54 +72,9 @@ p{
 	margin-bottom: .5em;
 }
 
-//LAYOUT 1 ----------------------------------------------------------------------------------
-
-p.layout-1-copy{
-	margin-top: 0;
-}
-
-div.layout-1-img{
-	background-color: #eee;
+.placeholder-image{
+    background-color: #eee;
 	height: 25em;
 }
 
-//LAYOUT 2 ----------------------------------------------------------------------------------
 
-layout-2-subtitle{
-	margin-top: 0;
-}
-
-div.layout-2-img{
-	background-color: #eee;
-	height: 25em;
-}
-
-//LAYOUT 3 ----------------------------------------------------------------------------------
-
-h3.layout-3-subtitle1, h3.layout-3-subtitle2, .layout-3-copy1, .layout-3-copy2{
-	margin-top: 0;	
-}
-
-div.layout-3-img, div.layout-4-img{
-	background-color: #eee;
-	height: 25em;
-}
-
-.layout-3-copy3, .layout-3-copy4, .layout-3-copy5, h3.layout-3-subtitle3, h3.layout-3-subtitle4, h3.layout-3-subtitle5{
-	margin-top: 0;
-}
-
-
-//LAYOUT 4 ----------------------------------------------------------------------------------
-
-h3.layout-4-subtitle{
-		margin-top: 0;
-}
-
-
-
-/*
-*{
-    border: 1px dotted red;
-}
-*/
