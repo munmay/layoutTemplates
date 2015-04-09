@@ -1,7 +1,3 @@
-@import "variables.less";
-@import "grid.less";
-
-
 @media screen and (max-width: 1023px) {
 	html > body{
 		margin: 1em;
@@ -79,7 +75,7 @@ p.layout-1-copy{
 }
 
 div.layout-1-img{
-	background-color: @placeholderImage;
+	background-color: #eee;
 	height: 25em;
 }
 
@@ -90,7 +86,7 @@ h3.layout-2-subtitle{
 }
 
 div.layout-2-img{
-	background-color: @placeholderImage;
+	background-color: #eee;
 	height: 25em;
 }
 
@@ -101,7 +97,7 @@ h3.layout-3-subtitle1, h3.layout-3-subtitle2, .layout-3-copy1, .layout-3-copy2{
 }
 
 div.layout-3-img, div.layout-4-img{
-	background-color: @placeholderImage;
+	background-color: #eee;
 	height: 25em;
 }
 
