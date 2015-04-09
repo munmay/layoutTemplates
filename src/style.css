@@ -81,7 +81,7 @@ div.layout-1-img{
 
 //LAYOUT 2 ----------------------------------------------------------------------------------
 
-h3.layout-2-subtitle{
+layout-2-subtitle{
 	margin-top: 0;
 }
 
@@ -108,9 +108,14 @@ div.layout-3-img, div.layout-4-img{
 
 //LAYOUT 4 ----------------------------------------------------------------------------------
 
-.layout-4{
-}
-
 h3.layout-4-subtitle{
 		margin-top: 0;
 }
+
+
+
+/*
+*{
+    border: 1px dotted red;
+}
+*/
