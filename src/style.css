@@ -18,42 +18,42 @@ body{
 
 h1{
 	font-family: 'Georgia', serif;
-	font-size: @h1;
+	font-size: 3em;
 	font-weight: bold;
-	line-height: @lineHeight-titles;
-	color: @text-color; 
+	line-height: 1.25em;
+	color: #333; 
 	margin-bottom: 0;
 }
 
 h2{
 	font-family: 'Georgia', serif;
 	font-weight: normal;
-	font-size: @h2;
-	line-height: @lineHeight-titles;
-	color: @text-color; 
+	font-size: 2em;
+	line-height: 1.25em;
+	color: #333; 
 	padding-bottom: .2em;
-	border-bottom: 1px solid @lineColor; 
+	border-bottom: 1px solid #ccc; 
 }
 
 h2{
 	font-family: 'Georgia', serif;
-	font-size: @h2;
-	line-height: @lineHeight-titles;
-	color: @text-color; 
+	font-size: 2em;
+	line-height: 1.25em;
+	color: #333; 
 }
 
 h3{
 	font-family: 'Helvetica-Neue', sans-serif;
-	font-size: @h3;
-	line-height: @lineHeight-titles;
-	color: @text-color; 
+	font-size: 1.2em;
+	line-height: 1.25em;
+	color: #333; 
 }
 
 p{
 	font-family: 'Helvetica Neue', sans-serif;
-	font-size: @content;
-	line-height: @lineHeight-body;
-	color: @text-color; 
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #333; 
 }
 
 .layout{
