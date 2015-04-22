@@ -22,7 +22,7 @@ h1{
 	font-weight: bold;
 	line-height: 1.25em;
 	color: #333; 
-	margin-bottom: 0;
+	margin-bottom: 1em;
 }
 
 h2{
@@ -33,15 +33,9 @@ h2{
 	color: #333; 
 	padding-bottom: .2em;
 	border-bottom: 1px solid #ccc; 
-}
-
-h2{
-	font-family: 'Georgia', serif;
-	font-size: 2em;
-	line-height: 1.25em;
-	color: #333; 
     margin-bottom: 1em;
 }
+
 
 h3{
 	font-family: 'Helvetica-Neue', sans-serif;
@@ -68,10 +62,6 @@ p{
 
 #clear{
 	clear: both;
-}
-
-#bottomspace{
-	margin-bottom: .5em;
 }
 
 .placeholder-image{
